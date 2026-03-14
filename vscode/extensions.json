@@ -1,0 +1,16 @@
+code --install-extension bourhaouta.tailwindshades
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension catppuccin.catppuccin-vsc
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension devsense.composer-php-vscode
+code --install-extension devsense.intelli-php-vscode
+code --install-extension devsense.phptools-vscode
+code --install-extension devsense.profiler-php-vscode
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension github.copilot-chat
+code --install-extension josemurilloc.aura-spirit-dracula
+code --install-extension naumovs.color-highlight
+code --install-extension pkief.material-icon-theme
+code --install-extension subframe7536.custom-ui-style
