@@ -1,0 +1,15 @@
+alias sail="./vendor/bin/sail"
+alias stan="./vendor/bin/phpstan analyse --memory-limit=1G"
+alias pint="./vendor/bin/pint"
+alias san="sail artisan"
+alias mfs="sail artisan migrate:fresh --seed"
+alias lara-check="pint && stan"
+alias pa="php artisan"
+alias pfs="php artisan migrate:fresh --seed"
+alias horizon="php artisan horizon"
+alias pa-clear="php artisan optimize:clear"
+
+alias gck="git checkout"
+alias gps="git push origin"
+alias gpo="git pull origin"
+alias gtc="git commit -m"                                                                                                                                                                                                                                                   59
