@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.activityBar.location": "default",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": true,
     "workbench.startupEditor": "none",
@@ -15,19 +15,13 @@
     "explorer.compactFolders": false,
     "explorer.decorations.badges": false,
     "git.decorations.enabled": false,
-    "workbench.navigationControl.enabled": false,
-    "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "window.menuBarVisibility": "compact",
-    "window.zoomLevel": 1,
-    "window.customTitleBarVisibility": "never",
+    "window.menuStyle": "native",
+    "window.zoomLevel": 0.6,
+    "window.customTitleBarVisibility": "windowed",
     "window.titleBarStyle": "native",
     "custom-ui-style.electron": {
         "titleBarStyle": "hiddenInset",
-        "trafficLightPosition": {
-            "x": 20,
-            "y": 16
-        },
     },
     "custom-ui-style.stylesheet": {
         ".notification-toast": "box-shadow: none !important",
@@ -51,9 +45,9 @@
         ".title .monaco-icon-label.file-icon": "margin: 0 60px",
         ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
     },
-    "custom-ui-style.font.sansSerif": "DankMono Nerd Font",
+    "custom-ui-style.font.sansSerif": "Monaco",
     "workbench.colorCustomizations": {
-        "editorCursor.background": "#000000",
+        "editorCursor.background": "#1A1B26",
         "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
         "editorOverviewRuler.selectionHighlightForeground": "#0000",
         "editorOverviewRuler.rangeHighlightForeground": "#0000",
@@ -67,18 +61,19 @@
         "editorOverviewRuler.errorForeground": "#0000",
         "editorOverviewRuler.infoForeground": "#0000",
         "editorOverviewRuler.border": "#0000",
-        "[Aura Dracula Spirit (Soft)]": {
-        "editorSuggestWidget.selectedBackground": "#3A334B",
-        "sideBar.background": "#191521"
+        "terminal.background": "#1A1B26",
+        "[Tokyo Night]": {
+            "editorGroupHeader.noTabsBackground": "#1A1B26",
+            "sideBar.background": "#1A1B26",
+            "sideBarSectionHeader.background": "#1A1B26",
         }
     },
     "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "solid",
-    "editor.fontFamily": "DankMono Nerd Font",
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "editor.fontWeight": "600",
-    "editor.lineHeight": 1.8,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -92,10 +87,9 @@
     "editor.stickyScroll.enabled": false,
     "editor.colorDecorators": false,
     "editor.matchBrackets": "never",
-    "editor.codeLens": false,
+    "editor.codeLens": true,
     "editor.lightbulb.enabled": "off",
     "editor.parameterHints.enabled": false,
-    "editor.hover.enabled": "off",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "scm.diffDecorations": "none",
@@ -120,6 +114,53 @@
     "extensions.ignoreRecommendations": true,
     "update.mode": "none",
     "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1"
-}
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "php.inlayHints.parameters.enabled": false,
+    "Laravel.translation.diagnostics": false,
+    "php.problems.exclude": {
+        "**/*": [
+            "PHP0413",
+            "PHP0416",
+            "PHP6613"
+        ]
+    },
 
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "chat.mcp.gallery.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "go": false,
+        "php": true
+    },
+    "claudeCode.preferredLocation": "panel",
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": true,
+        "repositories": true,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "src/contexts/AuthContext.tsx"
+    ]
+}
