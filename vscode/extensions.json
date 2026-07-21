@@ -1,16 +1,41 @@
-code --install-extension bourhaouta.tailwindshades
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension catppuccin.catppuccin-vsc
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension devsense.composer-php-vscode
-code --install-extension devsense.intelli-php-vscode
-code --install-extension devsense.phptools-vscode
-code --install-extension devsense.profiler-php-vscode
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.auto-rename-tag
-code --install-extension github.copilot-chat
-code --install-extension josemurilloc.aura-spirit-dracula
-code --install-extension naumovs.color-highlight
-code --install-extension pkief.material-icon-theme
-code --install-extension subframe7536.custom-ui-style
+amiralizadeh9480.laravel-extra-intellisense
+anthropic.claude-code
+bourhaouta.tailwindshades
+bradlc.vscode-tailwindcss
+catppuccin.catppuccin-vsc
+codingyu.laravel-goto-view
+cweijan.dbclient-jdbc
+cweijan.vscode-redis-client
+dbaeumer.vscode-eslint
+devsense.composer-php-vscode
+devsense.intelli-php-vscode
+devsense.phptools-vscode
+devsense.profiler-php-vscode
+ducphamngoc.codevisualizer
+eamodio.gitlens
+editorconfig.editorconfig
+enkia.tokyo-night
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+formulahendry.code-runner
+github.copilot
+github.copilot-chat
+glitchbl.laravel-create-view
+golang.go
+ihunte.laravel-blade-wrapper
+josemurilloc.aura-spirit-dracula
+lang2hong.db-client
+laravel.vscode-laravel
+mikestead.dotenv
+naoray.laravel-goto-components
+naumovs.color-highlight
+onecentlin.laravel-blade
+onecentlin.laravel-extension-pack
+onecentlin.laravel5-snippets
+pgl.laravel-jump-controller
+pkief.material-icon-theme
+ryannaddy.laravel-artisan
+shobhit01.cobalt2-italic
+shufo.vscode-blade-formatter
+sst-dev.opencode
+subframe7536.custom-ui-style
